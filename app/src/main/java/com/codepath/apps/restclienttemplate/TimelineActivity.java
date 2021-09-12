@@ -27,6 +27,7 @@ public class TimelineActivity extends AppCompatActivity {
     TweetsAdapter adapter;
     SwipeRefreshLayout swipeContainer;
     EndlessRecyclerViewScrollListener scrollListener;
+    TimeFormatter time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
