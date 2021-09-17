@@ -11,7 +11,7 @@ The following **required** functionality is completed:
 - [X] User can **sign in to Twitter** using OAuth login
 - [X]	User can **view tweets from their home timeline**
   - [X] User is displayed the username, name, and body for each tweet
-  - [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
+  - [X] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
 - [X] User can refresh tweets timeline by pulling down to refresh
 
 The following **optional** features are implemented:
@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/maria-jpg/SimpleTweet/blob/master/Walkthrough.gif' title='SimpleTweet Part 1 Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -39,7 +39,7 @@ While working with this app, acquiring Twitter's API approval took a little whil
 
 The last issue I encountered while making the first part of this application was making sure that there was an infinite scroll. My log messages would not appear on logcat. I was able to identify quickly that I was instantiating a new LayoutManager instead of calling the one that was already created.
 
-So far, in creating this applicaiton has been fun!
+So far, creating this applicaiton has been fun!
 
 ## Open-source libraries used
 
