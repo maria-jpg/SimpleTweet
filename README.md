@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/maria-jpg/SimpleTweet/blob/master/Walkthrough2.gif' title='Video Walkthrough for Twitter Part 2' width='' alt='Video Walkthrough for Twitter Part 2' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
