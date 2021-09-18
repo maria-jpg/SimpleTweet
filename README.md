@@ -13,7 +13,7 @@ The following **required** functionality is completed:
   - [X] User can then enter a new tweet and post this to twitter
   - [X] User is taken back to home timeline with **new tweet visible** in timeline
   - [X] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
-  - [ ] User can **see a counter with total number of characters left for tweet** on compose tweet page
+  - [X] User can **see a counter with total number of characters left for tweet** on compose tweet page
 
 The following **optional** features are implemented:
 
@@ -27,9 +27,6 @@ The following **optional** features are implemented:
 - [ ] When a user leaves the compose view without publishing and there is existing text, prompt to save or delete the draft. If saved, the draft should then be **persisted to disk** and can later be resumed from the compose view.
 - [ ] Enable your app to receive implicit intents from other apps. When a link is shared from a web browser, it should pre-fill the text and title of the web page when composing a tweet. 
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -41,7 +38,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challenge I encountered was loading the database properly onto my app when the phone was offline. Another was closing the ComposeActivity after I publish a tweet. 
+However, after carefully backtracing, I realized I forgot to close the app properly!
+
 
 ## Open-source libraries used
 
@@ -50,7 +49,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Maria Palomino]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
